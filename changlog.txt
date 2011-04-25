@@ -1,0 +1,17 @@
+2010-07-12 Simbaforrest
+将线段检测LSD以及线段分组JlinkageLib添加进入PhotoMeasurer
+
+2010-07-10 Simbaforrest
+添加CxImage库，PhotoMeasurer使用该库作为图像引擎（不再
+使用opencv读取显示图像，因为CxImage的效率更高）
+添加Geos库，作为几何引擎
+将Console，CharUtils，Updator等公共文件移出作为一个独立
+模块Console.dll
+
+2010-07-09 Simbaforrest
+添加JLinkage模块，用于进行多实例模型稳健估计，并添加JLnkTest
+重新调整了解决方案的结构分为Application、Library、LibTest和Note四大项
+
+2010-07-07 Simbaforrest
+添加LSD模块，用于检测直线段
+修改PhotoMeasurer，Ctrl+D可以画出检测的直线段
